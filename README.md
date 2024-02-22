@@ -44,7 +44,7 @@ import cv2
 viedoCaptureObject=cv2.VideoCapture(0)
 while(True):
     ret,frame=viedoCaptureObject.read()
-    cv2.imwrite("deva.jpg",frame)
+    cv2.imwrite("Devadarshan.jpg",frame)
     result=False
 viedoCaptureObject.release()
 cv2.destroyAllWindows()
